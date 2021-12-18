@@ -1,0 +1,152 @@
+:root {
+    --black: #181818;
+    --limegreen: #10ff00;
+    --spacing-unit: 1.5rem;
+}
+
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: var(--black);
+    color: var(--limegreen);
+    font-family:'Courier New', Courier, monospace;
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+}
+
+/* classes */
+.d-f {
+    display: flex;
+}
+
+.p {
+    padding: var(--spacing-unit);
+}
+
+.fxd-c {
+    flex-direction: column;
+}
+
+.wrapper {
+    background-color: var(--limegreen);
+    color: var(--black);
+    padding: 10px;
+    text-align: center;
+}
+
+.trn-1 {
+    transition: all 0.5s ease-in-out;
+}
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: var(--limegreen);
+    padding: 5px 1px;
+}
+  
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 25px; 
+    line-height: 25px;
+    border-radius: 4px;
+}
+  
+.header a.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+  
+.header a:hover {
+    box-shadow: black inset 0px 5px 24px;
+    color: white;
+    transition: all .80s ease-in-out;
+}
+  
+.header-right {
+    float: right;
+}
+  
+@media screen and (max-width: 500px) {
+.header a {
+      float: none;
+      display: block;
+      text-align: left;
+}
+    
+.header-right {
+    float: none;
+}
+}
+
+.footer {
+    text-align: center ;
+}
+
+.content {
+}
+
+.feature {
+    margin: 1%;
+}
+
+.column1, .column2, .column3 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+}
+
+.column3 {
+    margin-right: 0%;
+}
+
+.feature, .article {
+    margin-bottom: 1em;
+    background-color: #3b3d3a;
+}
+
+.pab {
+    padding: 15px;
+    border-width: thick;
+    border-style: groove;
+    text-align: center;
+}
+
+/* media queries */
+@media screen and (max-width: 767px) {
+    .miw-100\@sml {
+        min-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .miw-50\@lrg {
+        min-width: 50%;
+    }
+}
+
+.p {
+    padding: 1.5
+}
+
+.ta-c {
+    text-align: center;
+}
