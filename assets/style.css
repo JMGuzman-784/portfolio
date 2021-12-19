@@ -14,10 +14,13 @@ html {
 }
 
 body {
-    background-color: var(--black);
+    background-repeat: no-repeat;
+    background: rgb(8,8,8);
+    background: linear-gradient(180deg, rgba(8,8,8,1) 0%, rgba(34,34,34,1) 49%, rgba(24,24,24,1) 100%);
     color: var(--limegreen);
     font-family:'Courier New', Courier, monospace;
     line-height: 1.5;
+    height: 100vh;
 }
 
 img {
@@ -99,9 +102,6 @@ img {
 
 .footer {
     text-align: center ;
-}
-
-.content {
 }
 
 .feature {
