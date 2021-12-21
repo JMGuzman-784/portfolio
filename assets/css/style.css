@@ -48,9 +48,6 @@ img {
     flex-wrap: wrap;
 }
 
-
-
-
 .wrapper {
     background-color: var(--limegreen);
     color: var(--black);
@@ -172,8 +169,10 @@ img {
     transition: .40s;
 }
 
-
-
 .dw {
     display: wrap;
+}
+
+.cursor {
+    cursor: default;
 }
