@@ -40,6 +40,17 @@ img {
     flex-direction: column;
 }
 
+.fx-1 {
+    flex: 1;
+}
+
+.fxw-w {
+    flex-wrap: wrap;
+}
+
+
+
+
 .wrapper {
     background-color: var(--limegreen);
     color: var(--black);
@@ -161,3 +172,8 @@ img {
     transition: .40s;
 }
 
+
+
+.dw {
+    display: wrap;
+}
