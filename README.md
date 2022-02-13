@@ -4,9 +4,15 @@
 
 Compact display of previous web pages created during and before Coding bootcamp Journey 
 
-## Screenshot
+## Previews
 
-![My Portfolio includes a nav bar were the visitor can navigate through the first webpage as well as go directly to my linked in. If said visitor would like to contact me they may by going to the "Contact" tab, which then redirect them to a form where they then submit some feedback or comments.](./assets/images/my_portfolio_preview.png)
+## New and improved Portfolio
+
+
+## Old Portfolio
+
+My Portfolio includes a nav bar were the visitor can navigate through the first webpage as well as go directly to my linked in. If said visitor would like to contact me they may by going to the "Contact" tab, which then redirect them to a form where they then submit some feedback or comments.
+![Old Portfolio](./assets/images/my_portfolio_preview.png)
 
 ## Link to Application
 
