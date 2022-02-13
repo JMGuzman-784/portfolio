@@ -18,7 +18,7 @@ header, h2, p {
     background-color: #fff;
     border: 1px solid #dee2e6;
     border-radius: 0.25rem;
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
 }
 
@@ -282,7 +282,9 @@ header, h2, p {
     width: 50%;
 }
 
-
+.gradient-text {
+    color: rgb(0, 0, 0);
+}
 
 
 

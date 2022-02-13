@@ -8,6 +8,9 @@ Compact display of previous web pages created during and before Coding bootcamp 
 
 ## New and improved Portfolio
 
+Below is my New and Improved Portfolio but with a few changes. Feel free to navigate through and scroll through the recent assignments and projects. 
+![New Portfolio](./assets/images/My_new_port.png)
+![New Portfolio Gif](./assets/images/Port_gif.gif)
 
 ## Old Portfolio
 
