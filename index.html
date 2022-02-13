@@ -1,94 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=\, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
-    <title>Jose Guzman's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jose Guzman's Updated Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
+<body class="miw-50@lrg miw-100@sml">
+    <header>
+        <nav class="navbar navbar-dark bg-dark justify-content-center fixed">
+            
+                <h1>
+                    <a><code>&#60; Jose Guzman | Portfolio &#62;</code></a>
+                </h1>
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/JMGuzman-784/portfolio" target="_blank">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./assets/Resume_JMGuzman_TC (1).pdf" download>My Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects_section">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://jmguzman-784.github.io/contactme/" target="_blank">Contact Me</a>
+                        </li>
+                        
+                      </ul>
+        </nav>
+    </header>
+    <hr>
+        <section class="border container d-flex justify-content-center text-center">
+            <div class="row">
+                <aside class="border col-sm-3 p-2">
+                    <h2>&#60; HELLO AGAIN! &#62;</h2>
+                    <p>
+                        Hello and welcome back! There has been a few changes to my portfolio as you can remember.
+                        This is my new and improved portfolio. Why imporved? you might ask, I have taken a lot of feedback 
+                        from my "Contact Me" page. I managed to go about certain issues that did not catch my eye.
+                        Feel free to navigate through my website. If you scroll all the way down you will have the 
+                        ability to reach out to me on linkedin and visit my github pages.
+                    </p>  
+                    <div>  
+                    <img class="imgthumbnail" src="./assets/images/headshot_2.jpg" alt="">  
+                    </div>
+                    <br>
+                </aside>
 
-<body class="cursor d-f fxd-c">
+                <div class="border col-md-9 p-2">
+                    <div class="row">
+                        <h2>
+                            What I love to do
+                        </h2>
+                        <p>
+                            Box with video should belong here
+                        </p>
+                        <video width="400px" autoplay controls>
+                            Me coding
+                            <source src="https://www.youtube.com/watch?v=DKqqP6sw3TM" type="video/mp4">
+                        </video>
+                    
 
-    <div class="cursor header">
-        <a class="cursorlogo"><code>&#60; Jose Guzman's Portfolio &#62;</code></a>
-        <div class="cursor header-right">
-          <a href="https://github.com/JMGuzman-784/portfolio" target="_blank">Home</a>
-          <a href="#projects_section">Projects</a>
-          <a href="https://jmguzman-784.github.io/contactme/" target="_blank">Contact</a>
-          <a href="https://www.linkedin.com/in/guzmanjose86/" target="_blank">My Linkedin</a>
+                        <h2>
+                        Sole/Synergy Projects
+                        </h2>
+                        <p>
+                            Below you will be able to navigate through projects that I worked on as a team. 
+                        </p>
+                        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <a href="https://jmguzman-784.github.io/hw1b/" target="_blank">
+
+                                <img class="imgthumbnail d-block w-100" src="./assets/images/horiseon webpage img.png" alt="">
+                                </a>
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>First slide label</h5>
+                                  <p>Some representative placeholder content for the first slide.</p>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img class="imgthumbnail d-block w-100" src="./assets/images/Eminem webpage img.png" alt="">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Second slide label</h5>
+                                  <p>Some representative placeholder content for the second slide.</p>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img class="imgthumbnail d-block w-100" src="./assets/images/Boxes webpage.png" alt="">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Third slide label</h5>
+                                  <p>Some representative placeholder content for the third slide.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+
+                        <hr>
+
+                        <h2>
+                        Sole Assignments
+                        </h2>
+                        <p>
+                            Below you will be able to navigate through some of my homework assignmets/projects
+                        </p>
+                        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <a href="https://jmguzman-784.github.io/hw1b/" target="_blank">
+
+                                <img class="imgthumbnail d-block w-100" src="./assets/images/horiseon webpage img.png" alt="">
+                                </a>
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Horiseon Webpage</h5>
+                                  <p>First Sole Assignment</p>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img class="imgthumbnail d-block w-100" src="./assets/images/Eminem webpage img.png" alt="">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Second slide label</h5>
+                                  <p>Some representative placeholder content for the second slide.</p>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img class="imgthumbnail d-block w-100" src="./assets/images/Boxes webpage.png" alt="">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Third slide label</h5>
+                                  <p>Some representative placeholder content for the third slide.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <hr>
+
+    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+    
+    <footer class="ms-1 row row-cols-1  g-4 bg-dark">
+
+        <div class="col">
+          <div class="card border-light text-white bg-dark mb-3 me-3" >
+            <div class="card-header border-light font-weight-bold">Linkedin</div>
+            <div class="card-body text-dark">
+              <h5 class="card-title text-white">Linkedin Profile</h5>
+              <p class="card-text">Click the button to visit my Linkedin Profile</p>
+              <a href="https://www.linkedin.com/in/guzmanjose86/" class="link bob-on-hover">View Profile</a>
+            </div>
+          </div>
         </div>
-    </div>
 
-    <!-- 3 boxes with projects that I have done -->
-    <main class="content">
-        <section class="feature pab">
-            <h2 class="">&#60; HELLO THERE! &#62;</h2>
-            <p class="">It seems that you have stumbled upon my portfolio. 
-                Allow me to introduce myself. I love to code. I have always 
-                loved to work with computers and the software part of 
-                technology. If you look at the upper-right corner of the 
-                screen, you will notice four tabs about what content you 
-                find on this website. This website shows you the work I can 
-                achieve using my fingers, coffee, and a keyboard. Please, 
-                feel free to navigate through my website and click the other 
-                web pages that I have created. Also, you can always provide 
-                feedback by contacting me through the contact tab. Thank you 
-                so much for taking a look at what I can do. Take care, brush 
-                ya hair!</p>  
-                <img class="hov imgsze" src="./assets/images/side_profile.jpg" alt="">  
-        </section>
-
-        <hr />
-
-        <section class="fxd-c" id="projects_section"> 
-
-                <p class="midtitle">Below you will see the projects that I have done.</p>
-
-            <hr />    
-
-            <section class="d-f fx-1 fxw-w miw-50@lrg miw-100@sml ">
-
-                <section class="article column1 pab miw-50@lrg miw-100@sml fx-1 ">
-                    <h2 class="">Horiseon Webpage</h2>
-                    <p>This Web page was created during class and was also a Homework assignment which I was very 
-                        excited about.</p>
-                    <a class="cursor" href="https://jmguzman-784.github.io/hw1b/" target="_blank">
-                        <img class="hov" src="./assets/images/horiseon webpage img.png" alt="">
-                    </a>
-
-                </section>
-
-                <section class="article column2 pab miw-50@lrg miw-100@sml  fx-1">
-                    <h2 class="">Eminem Fanpage</h2>
-                    <p>This web page was more of a fanpage for my favorite rapper, Eminem. This was created during 
-                        the Prework of my bootcamp where I was beginning to learn about css.</p>
-                    <a class="cursor" href="https://jmguzman-784.github.io/emfp/" target="_blank">
-                        <img class="hov" src="./assets/images/Eminem webpage img.png" alt="">
-                    </a>   
-                </section>
-
-                <section class="article column3 pab miw-50@lrg miw-100@sml  fx-1">
-                    <h2 class="">Functional Buttons</h2>
-                    <p>This Web page was also created during the Prework of my bootcamp experience in which I learned 
-                        alot about Javascript and how certain functions worked.</p>
-                    <a class="cursor" href="https://jmguzman-784.github.io/Functionalbuttons/" target="_blank">
-                        <img class="hov" src="./assets/images/Boxes webpage.png" alt="">
-                    </a>
-                </section>
-                <!-- Add the next projects and hw assisnments completed -->
-            </section>    
-
-        </section>
-
-    </main>
-
-    <footer class="footer">
-        <a class="cursor" href="https://www.linkedin.com/in/guzmanjose86/">
-            <img class="logos" src="./assets/images/linkedin logo.png" alt="">
-        </a>
+        <div class="col">
+          <div class="card border-light text-white bg-dark mb-3 me-3" >
+            <div class="card-header border-light">Github Pages</div>
+            <div class="card-body text-dark">
+              <h5 class="card-title text-white">Visit Github</h5>
+              <p class="card-text">Click the button to visit my Github Pages</p>
+              <a href="https://github.com/JMGuzman-784" class="link bob-on-hover" target="_blank">Github</a>
+            </div>
+          </div>
+        </div>
 
     </footer>
+
 </body>
 </html>
