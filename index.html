@@ -21,16 +21,16 @@
                 </h1>
                     <ul class="nav justify-content-end">
                         <li class="nav-item">
-                            <a class="nav-link" href="https://github.com/JMGuzman-784/portfolio" target="_blank">Home</a>
+                            <a class="nav-link navBtns" href="https://github.com/JMGuzman-784/portfolio" target="_blank">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./assets/Resume_JMGuzman_TC (1).pdf" download>My Resume</a>
+                            <a class="nav-link navBtns" href="./assets/Resume_JMGuzman_TC (1).pdf" download>My Resume</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#projects_section">Projects</a>
+                            <a class="nav-link navBtns" href="#projects_section">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://jmguzman-784.github.io/contactme/" target="_blank">Contact Me</a>
+                            <a class="nav-link navBtns" href="https://jmguzman-784.github.io/contactme/" target="_blank">Contact Me</a>
                         </li>
                         
                       </ul>
@@ -62,58 +62,69 @@
                         <p>
                             This video below is just to show what I love to do.
                         </p>
-                        
-
                         <h2>
                         Sole/Synergy Projects
                         </h2>
                         <p>
                           Below you will be able to navigate through projects that I worked on as a team. 
                         </p>
-                        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                          <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+                        <div id="slider">
+                          <input type="radio" name="slider" id="slide1" checked>
+                          <input type="radio" name="slider" id="slide2">
+                          <input type="radio" name="slider" id="slide3">
+                          <input type="radio" name="slider" id="slide4">
+                          <div id="slides">
+                             <div id="overflow">
+                                <div class="inner">
+                                   <div class="slide slide_1">
+                                      <div class="slide-content">
+                                        <a href="https://jmguzman-784.github.io/hw3/" target="_blank"><img class="imgthumbnailz" src="./assets/images/PWGen.png" alt="Password_Gen"></a>
+                                         <h2>Password Generator</h2>
+                                         <p>Having a Difficult coming up with a password? Use this Password Generator shown above.</p>
+                                      </div>
+                                   </div>
+                                   <div class="slide slide_2">
+                                      <div class="slide-content">
+                                        <a href="https://jmguzman-784.github.io/hw5/" target="_blank"><img class="imgthumbnailz" src="./assets/images/Work_day_scheduler.png" alt="Work_scheduler"></a>
+                                         <h2>Work Day Scheduler</h2>
+                                         <p>Having trouble remebering your tasks for Work?</p>
+                                         <p>No More Worry! Use this Work Day Scheduler like a To-Do list.</p>
+                                      </div>
+                                   </div>
+                                   <div class="slide slide_3">
+                                      <div class="slide-content">
+                                        <a href="https://jmguzman-784.github.io/hw6/" target="_blank"><img class="imgthumbnailz" src="./assets/images/weatherdashpicture.png" alt="Weather_Dashboard"></a>
+                                         <h2>Weather Dashboard</h2>
+                                         <p>Planning a trip and need to know the weather?</p>
+                                         <p>Click the image above to start browsing through cities!</p>
+                                      </div>
+                                   </div>
+                                   <div class="slide slide_4">
+                                      <div class="slide-content">
+                                        <a href="https://the-camelcasers.github.io/project/" target="_blank"><img class="imgthumbnailz" src="./assets/images/Need_anumbrella.png" alt="Umbrella_gif_app"></a>
+                                         <h2>Need an Umbrella?</h2>
+                                         <p>Click on the image above to visit my first group Project.</p>
+                                         <p>This Project was worked on in almost 2 weeks of class time.</p>
+                                      </div>
+                                   </div>
+                                </div>
+                             </div>
                           </div>
-                          <div class="carousel-inner">
-                            <div class="carousel-item active" data-bs-interval="10000">
-                              <a class="" href="https://jmguzman-784.github.io/hw1b/" target="_blank">
-                              <img src="./assets/images/horiseon webpage img.png" class="d-block w-100" alt="hw_1">
-                              </a>
-                              <div class="carousel-caption d-none d-md-block">
-                                <h5>Horiseon Webpage</h5>
-                                <p>This was my very first Homework Assignment.</p>
-                              </div>
-                            </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                              <a class="" href="https://jmguzman-784.github.io/emfp/" target="_blank">
-                              <img src="./assets/images/Eminem webpage img.png" class="d-block w-100" alt="pre_work">
-                              </a>
-                              <div class="carousel-caption d-none d-md-block">
-                                <h5>Eminem fanpage</h5>
-                                <p>This webpage created during prework.</p>
-                              </div>
-                            </div>
-                            <div class="carousel-item">
-                              <a class="" href="https://jmguzman-784.github.io/Functionalbuttons/" target="_blank">
-                              <img src="./assets/images/Boxes webpage.png" class="d-block w-100" alt="">
-                              </a>
-                              <div class="carousel-caption d-none d-md-block">
-                                <h5>Functional buttons</h5>
-                                <p>This one was also created during prework.</p>
-                              </div>
-                            </div>
+                          <div id="controls">
+                             <label for="slide1"></label>
+                             <label for="slide2"></label>
+                             <label for="slide3"></label>
+                             <label for="slide4"></label>
                           </div>
-                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                          </button>
-                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                          </button>
-                        </div>
+                          <div id="bullets">
+                             <label for="slide1"></label>
+                             <label for="slide2"></label>
+                             <label for="slide3"></label>
+                             <label for="slide4"></label>
+                          </div>
+                       </div>
+
                     </div>
                 </div>
             </div>
