@@ -27,5 +27,5 @@ My Portfolio includes a navbar where the visitor can navigate through the first 
 
 ## Contact Information
 
-Email Address: Josemguzman784@gmail.com
-Linkedin Profile: [My Linkedin Page](https://www.linkedin.com/in/guzmanjose86/) 
+* Email Address: Josemguzman784@gmail.com
+* Linkedin Profile: [My Linkedin Page](https://www.linkedin.com/in/guzmanjose86/) 
