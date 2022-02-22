@@ -2,18 +2,43 @@
 * {
     box-sizing: border-box;
     color: white;
-
     font-family: 'Roboto Mono', monospace;
 }
   
 /* Style the body */
 body {
     margin: 0;
-    background: rgb(6,0,115);
-    background: linear-gradient(90deg, rgba(6,0,115,1) 12%, rgba(0,212,255,1) 80%);
-    background-repeat: no-repeat;
+    
+    text-shadow: 3px 3px rgba(128, 128, 128, 0.699);
+    -webkit-animation: bgcolor 7s infinite;
+    animation: bgcolor 7s infinite;
+    -webkit-animation-direction: normal;
+    animation-direction: normal;
 }
-  
+
+@keyframes bgcolor {
+    0% {
+        background-color: #060073;
+    }
+
+    30% {
+        background-color: #0059ff;
+    }
+
+    60% {
+        background-color: #00a0d1;
+    }
+
+    80% {
+        background-color: #97c4f1;
+    }
+
+    100% {
+        background-color: #060073;
+
+    }
+}
+
 /* Header/logo Title */
 .header {
     padding: 1rem;
