@@ -345,3 +345,23 @@ p {
         font-size: 0.9rem;
         color: #777;
       }
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 1rem;
+  background-color: #111;
+  color: #777;
+}
+
+.ntsh-footer-logo {
+  height: 60px;
+  width: auto;
+  transition: transform 0.3s ease;
+}
+
+.ntsh-footer-logo:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
