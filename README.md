@@ -25,6 +25,7 @@ A bold redesign inspired by Apple.com — featuring dark aesthetics, strong typo
 ![New Portfolio](./assets/images/My_new_port.png)
 
 #### 🎥 Live Interaction Preview
+*Currently working on new GIF...*
 ![New Portfolio Gif](./assets/images/Port_gif.gif)
 
 ### 🕰️ Previous Version
