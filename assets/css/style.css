@@ -224,3 +224,15 @@ p {
   width: 100%;
   position: absolute;
 }
+
+.ntsh-footer-logo {
+  height: 60px;
+  width: auto;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.ntsh-footer-logo:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 8px #00f0ff);
+  cursor: pointer;
+}
