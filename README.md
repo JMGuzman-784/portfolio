@@ -22,8 +22,8 @@ My Portfolio includes a navbar where the visitor can navigate through the first 
 
 ## Link to Application
 
-* Here is the link : [JMGuzman-784/portfolio](https://github.com/JMGuzman-784/portfolio)
-* Here is the pages: [JMGuzman-784/portfolio](https://jmguzman-784.github.io/portfolio/)
+* Here is the code : [JMGuzman-784/portfolio](https://github.com/JMGuzman-784/portfolio)
+* Here is the Page: [JMGuzman-784/portfolio](https://jmguzman-784.github.io/portfolio/)
 
 ## Contact Information
 
